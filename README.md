@@ -101,10 +101,8 @@ Dự án được xây dựng bám sát 100% các tiêu chí yêu cầu trong b�
 
 ## 📸 Hình ảnh Demo giao diện
 
-| 1. Trang 1: Danh sách SV | 2. Trang 2: Hộp thoại chi tiết | 3. Trang 3: Thêm / Sửa SV | 4. Hộp thoại xác nhận (Confirm) |
-| :---: | :---: | :---: | :---: |
-| <img src="docs/screenshots/student_list_demo.png" width="230" alt="Danh sách sinh viên" /> | <img src="docs/screenshots/student_detail_dialog_demo.png" width="230" alt="Chi tiết sinh viên" /> | <img src="docs/screenshots/add_edit_student_demo.png" width="230" alt="Thêm và sửa sinh viên" /> | <img src="docs/screenshots/confirm_dialog_demo.png" width="230" alt="Xác nhận xóa sinh viên" /> |
-| *Giao diện danh sách sinh viên kèm nút FAB (+)* | *Popup xem chi tiết sinh viên với nút Sửa, Xóa* | *Form nhập liệu, chọn ảnh từ thiết bị/URL* | *Hộp thoại xác nhận "Bạn có muốn xóa thông tin SV không?"* |
+> [!NOTE]
+> **Hình ảnh demo giao diện ứng dụng:** Sẽ được cập nhật trong thời gian sớm nhất.
 
 ---
 
