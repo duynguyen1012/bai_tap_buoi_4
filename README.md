@@ -101,8 +101,12 @@ Dự án được xây dựng bám sát 100% các tiêu chí yêu cầu trong b�
 
 ## 📸 Hình ảnh Demo giao diện
 
-> [!NOTE]
-> **Hình ảnh demo giao diện ứng dụng:** Sẽ được cập nhật trong thời gian sớm nhất.
+Dưới đây là hình ảnh thực tế chạy ứng dụng trên máy ảo Android (Pixel 4 - Android API 37.2):
+
+| 1. Trang 1: Danh sách sinh viên | 2. Trang 2: Hộp thoại xem chi tiết SV | 3. Trang 3: Màn hình thêm sinh viên |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/student_list_demo.png" width="260" alt="Trang 1: Danh sách sinh viên" /> | <img src="docs/screenshots/student_details_dialog_demo.png" width="260" alt="Trang 2: Hộp thoại chi tiết sinh viên" /> | <img src="docs/screenshots/add_student_demo.png" width="260" alt="Trang 3: Màn hình Thêm sinh viên" /> |
+| **Trang 1 - Student List:**<br>Hiển thị danh sách sinh viên dạng thẻ (`ElevatedCard`) với Avatar tròn, Họ tên (`duy`), MSSV (`BIT240080`), Email và nút bấm nổi **FAB (+)** ở góc dưới để mở màn hình thêm sinh viên mới. | **Trang 2 - Student Details (Dialog):**<br>Hộp thoại popup hiển thị avatar lớn, thông tin chi tiết sinh viên, tích hợp các nút hành động trực tiếp: **Delete (Xóa - Đỏ)**, **Edit (Sửa - Xanh)** và nút **Close** để đóng. | **Trang 3 - Add Student:**<br>Form tiếp nhận thông tin sinh viên với tùy chọn ảnh đại diện (chọn từ thiết bị qua Photo Picker hoặc nhập link URL), các trường Họ tên, MSSV, Email và nút **Save** để lưu vào Room DB. |
 
 ---
 
@@ -166,7 +170,10 @@ bai_tap_buoi_4/
 │   │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts                            # Cấu hình Module App & Dependencies
 ├── docs/
-│   └── screenshots/                                # Ảnh chụp giao diện demo cho README
+│   └── screenshots/                                # Ảnh chụp giao diện demo ứng dụng thực tế
+│       ├── student_list_demo.png                   # Demo Trang 1: Danh sách sinh viên
+│       ├── student_details_dialog_demo.png         # Demo Trang 2: Hộp thoại chi tiết SV
+│       └── add_student_demo.png                    # Demo Trang 3: Màn hình thêm sinh viên
 ├── gradle/
 │   └── libs.versions.toml                          # Version Catalog
 ├── build.gradle.kts
