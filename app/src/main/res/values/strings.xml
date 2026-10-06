@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Student Management</string>
+    <string name="student_list_title">Student List</string>
+    <string name="empty_student_list">No students found. Tap + to add.</string>
+    <string name="student_detail_title">Student Details</string>
+    <string name="add_student_title">Add Student</string>
+    <string name="edit_student_title">Edit Student</string>
+    <string name="name_label">Full Name</string>
+    <string name="name_placeholder">Enter full name</string>
+    <string name="student_id_label">Student ID</string>
+    <string name="student_id_placeholder">e.g., BIT240080</string>
+    <string name="email_label">Email</string>
+    <string name="email_placeholder">Enter email address</string>
+    <string name="avatar_label">Student Avatar</string>
+    <string name="avatar_url_label">Avatar Image URL</string>
+    <string name="avatar_url_placeholder">Paste image URL here</string>
+    <string name="pick_from_device">Select from Device</string>
+    <string name="or_divider">— OR —</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Yes</string>
+    <string name="confirm_edit_title">Confirm Edit</string>
+    <string name="confirm_edit_message">Do you want to edit this student\'s information?</string>
+    <string name="confirm_delete_title">Confirm Delete</string>
+    <string name="confirm_delete_message">Do you want to delete this student\'s information?</string>
+    <string name="validation_empty_error">Data cannot be left empty!</string>
+    <string name="validation_email_error">Invalid email format!</string>
+    <string name="validation_id_error">Invalid student ID format!</string>
+    <string name="student_added_success">Student added successfully!</string>
+    <string name="student_updated_success">Student updated successfully!</string>
+    <string name="student_deleted_success">Student deleted successfully!</string>
+</resources>
